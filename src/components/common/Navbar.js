@@ -64,17 +64,7 @@ export default function Navbar() {
                         <Link to="/about">About</Link>
                       </li>
                       <li>
-                        <Link to="/team-grid">
-                          Team <FiChevronRight className="icon" />
-                        </Link>
-                        <ul className="dropdown-menu-item">
-                          <li>
-                            <Link to="/team-grid">Team Grid</Link>
-                          </li>
-                          <li>
-                            <Link to="/team-details">Team Details</Link>
-                          </li>
-                        </ul>
+                        <Link to="/team">Team</Link>
                       </li>
                       <li>
                         <Link to="/testimonial">Testimonial</Link>
@@ -174,17 +164,7 @@ export default function Navbar() {
                         <a href="/about">About</a>
                       </li>
                       <li>
-                        <a href="/team-grid">
-                          Team <FiChevronRight className="icon" />
-                        </a>
-                        <ul className="dropdown-menu-item">
-                          <li>
-                            <a href="/team-grid">Team Grid</a>
-                          </li>
-                          <li>
-                            <a href="/team-details">Team Details</a>
-                          </li>
-                        </ul>
+                        <Link to="/team">Team</Link>
                       </li>
                       <li>
                         <a href="/testimonial">Testimonial</a>
@@ -286,10 +266,7 @@ export default function Navbar() {
                   <Link to="/about">about us</Link>
                 </li>
                 <li>
-                  <Link to="/team-grid">team grid</Link>
-                </li>
-                <li>
-                  <Link to="/team-details">team detail</Link>
+                  <Link to="/team">Team</Link>
                 </li>
                 <li>
                   <Link to="/testimonial">testimonial</Link>

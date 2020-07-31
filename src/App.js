@@ -3,7 +3,9 @@ import { Switch, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About_Page from "./pages/About_Page";
 import TeamGrid from "./pages/TeamGrid";
-import TeamDetails from "./pages/TeamDetails";
+import Fendi from "./pages/fendi";
+import Arief from "./pages/arief";
+import Ari from "./pages/ari";
 import TestimonialPage from "./pages/TestimonialPage";
 import FAQ from "./pages/FAQ";
 import OurPricing from "./pages/PricingPage";
@@ -30,8 +32,10 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/about" component={About_Page} />
-          <Route path="/team-grid" component={TeamGrid} />
-          <Route path="/team-details" component={TeamDetails} />
+          <Route path="/team" component={TeamGrid} />
+          <Route path="/fendi-details" component={Fendi} />
+          <Route path="/arief-details" component={Arief} />
+          <Route path="/ari-details" component={Ari} />
           <Route path="/testimonial" component={TestimonialPage} />
           <Route path="/faq" component={FAQ} />
           <Route path="/our-pricing" component={OurPricing} />
