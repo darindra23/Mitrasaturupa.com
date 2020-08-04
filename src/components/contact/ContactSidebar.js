@@ -9,11 +9,6 @@ export default class ContactSidebar extends Component {
       <aside className="contact-sidebar">
         <h1>Our Office</h1>
         <img src={img1} alt="Contact Sidebar" />
-        <p>
-          For any inquiries please don't hesitate to contact us so we could
-          discuss for further opportunity and we'll try our best to provide you
-          with the best solution.
-        </p>
         <div className="contact-sidebar-infos">
           <div className="item d-flex">
             <div className="icon">
@@ -27,6 +22,23 @@ export default class ContactSidebar extends Component {
                 Jl.Tebet Barat Dalam VIII A No. 12, Tebet, Jakarta Selatan.
                 <br />
                 DKI Jakarta 12810. Indonesia
+              </span>
+            </div>
+          </div>
+          <div className="item d-flex">
+            <div className="icon">
+              <span>
+                <FiMapPin />
+              </span>
+            </div>
+            <div className="details">
+              <h3>Riau Branch.</h3>
+              <span>
+                Jl. Gunung Sahilan No. 50,
+                <br />
+                Kelurahan Skip,Riau.
+                <br />
+                Pekanbaru. Indonesia
               </span>
             </div>
           </div>

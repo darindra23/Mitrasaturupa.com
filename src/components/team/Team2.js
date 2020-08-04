@@ -5,6 +5,7 @@ import { FiChevronRight } from "react-icons/fi";
 import img1 from "../../assets/images/ari.jpeg";
 import img2 from "../../assets/images/arif.jpeg";
 import img3 from "../../assets/images/fendi.jpeg";
+import img4 from "../../assets/images/rocky.jpeg";
 
 export default class Team2 extends Component {
   render() {
@@ -50,6 +51,18 @@ export default class Team2 extends Component {
                 <h2 className="name">M. Fendi Putranta</h2>
                 <p className="designation">Auditor</p>
                 <Link to="/fendi-details" className="theme-button">
+                  Read His Story <FiChevronRight className="icon" />
+                </Link>
+              </div>
+            </div>
+            <div className="team">
+              <div className="team-img">
+                <img src={img4} alt="Team" />
+              </div>
+              <div className="team-content">
+                <h2 className="name">Rocky Ramadani</h2>
+                <p className="designation">Auditor</p>
+                <Link to="/rocky-details" className="theme-button">
                   Read His Story <FiChevronRight className="icon" />
                 </Link>
               </div>

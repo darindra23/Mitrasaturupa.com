@@ -10,7 +10,7 @@ export default class Cta extends Component {
           <div className="row">
             <div className="col-8">
               <h1>
-                Tahun ini <strong>55 Perusahaan</strong> telah menggunakan
+                Tahun ini <strong>100+ Perusahaan</strong> telah menggunakan
                 layanan sertifikasi kami
               </h1>
             </div>

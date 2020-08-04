@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { FiChevronRight } from "react-icons/fi";
-import about_video_img from "../../assets/images/SMK3.jpg";
+import about_video_img from "../../assets/images/home2.png";
 import history_img from "../../assets/images/AK3U.jpg";
 
 export default class About1 extends Component {

@@ -43,6 +43,15 @@ export default class Footer extends Component {
                       Jakarta - Indonesia
                     </a>
                   </li>
+                  <li>
+                    <a href="https://maps.google.com">
+                      <span className="icon">
+                        <FiMapPin />
+                      </span>
+                      Gunung Sahilan No. 50, Riau <br />
+                      Pekanbaru - Indonesia
+                    </a>
+                  </li>
                 </ul>
               </div>
               <div className="footer-widget footer-help-links">
@@ -72,16 +81,19 @@ export default class Footer extends Component {
                 <h2>Jam Operasional.</h2>
                 <ul className="working-hours">
                   <li>
-                    <strong>Senin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</strong> &nbsp;8:00-16:00
+                    <strong>Senin&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</strong>{" "}
+                    &nbsp;8:00-16:00
                   </li>
                   <li>
                     <strong>Selasa&nbsp;&nbsp;&nbsp; :</strong> &nbsp;8:00-16:00
                   </li>
                   <li>
-                    <strong>Rabu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</strong> &nbsp;8:00-16:00
+                    <strong>Rabu&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</strong>{" "}
+                    &nbsp;8:00-16:00
                   </li>
                   <li>
-                    <strong>Kamis&nbsp;&nbsp;&nbsp;&nbsp; :</strong> &nbsp;8:00-16:00
+                    <strong>Kamis&nbsp;&nbsp;&nbsp;&nbsp; :</strong>{" "}
+                    &nbsp;8:00-16:00
                   </li>
                   <li>
                     <strong>Jumat&nbsp;&nbsp;&nbsp; :</strong> &nbsp;8:00-16:00

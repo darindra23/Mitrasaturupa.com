@@ -89,6 +89,11 @@ export default function Navbar() {
                       <li>
                         <Link to="/AK3U">Sertifikasi AK3U</Link>
                       </li>
+                      <li>
+                        <Link to="/Pesawat-uap-dan-bejana">
+                          K3 Pesawat Uap dan Bejana Tekanan
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                   <li>
@@ -167,6 +172,11 @@ export default function Navbar() {
                       <li>
                         <Link to="/AK3U">Sertifikasi AK3U</Link>
                       </li>
+                      <li>
+                        <Link to="/Pesawat-uap-dan-bejana">
+                          K3 Pesawat Uap dan Bejana Tekanan
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                   <li>
@@ -244,6 +254,11 @@ export default function Navbar() {
                 </li>
                 <li>
                   <Link to="/AK3U">Sertifikasi AK3U</Link>
+                </li>
+                <li>
+                  <Link to="/Pesawat-uap-dan-bejana">
+                    K3 Pesawat Uap dan Bejana Tekanan
+                  </Link>
                 </li>
               </ul>
             </li>

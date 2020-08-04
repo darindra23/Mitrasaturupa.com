@@ -8,6 +8,9 @@ import CtaForm from "../components/other/CtaForm";
 import Footer from "../components/other/Footer";
 
 export default class TeamGrid extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div className="teamgrid-page">
