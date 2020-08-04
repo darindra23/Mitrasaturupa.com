@@ -10,7 +10,6 @@ import Slider from "../components/sliders/slider";
 import Cta from "../components/other/Cta";
 import Team from "../components/team/Team";
 import Clients from "../components/other/Clients";
-// import Pricing from "../components/other/Pricing";
 import Footer from "../components/other/Footer";
 
 export default class Home extends Component {

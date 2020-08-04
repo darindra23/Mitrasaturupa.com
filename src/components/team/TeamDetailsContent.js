@@ -1,8 +1,5 @@
 import React, { Component } from "react";
 import img from "../../assets/images/sertifikatFendi.png";
-import { FiPhone, FiLink } from "react-icons/fi";
-import { FaEnvelope, FaQuoteLeft } from "react-icons/fa";
-import TeamSidebar from "./TeamSidebar";
 
 export default class TeamDetailsContent extends Component {
   expertise = {

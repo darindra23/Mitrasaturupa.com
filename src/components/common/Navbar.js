@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { FiChevronDown, FiChevronRight } from "react-icons/fi";
+import { FiChevronDown } from "react-icons/fi";
 import logo from "../../assets/images/logo.png";
 import HeaderBar from "../common/HeaderBar";
 import $ from "jquery";
@@ -57,42 +57,23 @@ export default function Navbar() {
                 <ul>
                   <li>
                     <Link to="/about">
-                      Pages <FiChevronDown className="menu-icon" />
+                      Tentang Kami <FiChevronDown className="menu-icon" />
                     </Link>
                     <ul className="dropdown-menu-item">
                       <li>
-                        <Link to="/about">About</Link>
+                        <Link to="/about">Mitra Satu Rupa</Link>
                       </li>
                       <li>
-                        <Link to="/team">Team</Link>
+                        <Link to="/visi-misi">Visi Misi</Link>
                       </li>
                       <li>
-                        <Link to="/testimonial">Testimonial</Link>
+                        <Link to="/tata-nilai">Tata Nilai</Link>
                       </li>
                       <li>
-                        <Link to="/faq">FAQ</Link>
+                        <Link to="/kode-etik">Kode Etik</Link>
                       </li>
                       <li>
-                        <Link to="/our-pricing">Our Pricing</Link>
-                      </li>
-                      <li>
-                        <Link to="/error">404</Link>
-                      </li>
-                      <li>
-                        <Link to="/sign-up">
-                          User <FiChevronRight className="icon" />
-                        </Link>
-                        <ul className="dropdown-menu-item">
-                          <li>
-                            <Link to="/sign-up">Sign Up</Link>
-                          </li>
-                          <li>
-                            <Link to="/login">Login</Link>
-                          </li>
-                          <li>
-                            <Link to="/forgot-password">Recover Password</Link>
-                          </li>
-                        </ul>
+                        <Link to="/team">Team Member</Link>
                       </li>
                     </ul>
                   </li>
@@ -118,9 +99,6 @@ export default function Navbar() {
                     <ul className="dropdown-menu-item">
                       <li>
                         <Link to="/Proses-SMK3">SMK3 Kemenaker RI</Link>
-                      </li>
-                      <li>
-                        <Link to="/Proses-AK3U">AK3U</Link>
                       </li>
                     </ul>
                   </li>
@@ -156,43 +134,24 @@ export default function Navbar() {
               <nav>
                 <ul>
                   <li>
-                    <a href="/about">
-                      Pages <FiChevronDown className="menu-icon" />
-                    </a>
+                    <Link to="/about">
+                      Tentang Kami <FiChevronDown className="menu-icon" />
+                    </Link>
                     <ul className="dropdown-menu-item">
                       <li>
-                        <a href="/about">About</a>
+                        <Link to="/about">Mitra Satu Rupa</Link>
                       </li>
                       <li>
-                        <Link to="/team">Team</Link>
+                        <Link to="/visi-misi">Visi Misi</Link>
                       </li>
                       <li>
-                        <a href="/testimonial">Testimonial</a>
+                        <Link to="/tata-nilai">Tata Nilai</Link>
                       </li>
                       <li>
-                        <a href="/faq">FAQ</a>
+                        <Link to="/kode-etik">Kode Etik</Link>
                       </li>
                       <li>
-                        <a href="/our-pricing">Our Pricing</a>
-                      </li>
-                      <li>
-                        <a href="/error">404</a>
-                      </li>
-                      <li>
-                        <a href="/sign-up">
-                          User <FiChevronRight className="icon" />
-                        </a>
-                        <ul className="dropdown-menu-item">
-                          <li>
-                            <a href="/sign-up">Sign Up</a>
-                          </li>
-                          <li>
-                            <a href="/login">Login</a>
-                          </li>
-                          <li>
-                            <a href="/forgot-password">Recover Password</a>
-                          </li>
-                        </ul>
+                        <Link to="/team">Team Member</Link>
                       </li>
                     </ul>
                   </li>
@@ -218,9 +177,6 @@ export default function Navbar() {
                     <ul className="dropdown-menu-item">
                       <li>
                         <Link to="/Proses-SMK3">SMK3 Kemenaker RI</Link>
-                      </li>
-                      <li>
-                        <Link to="/Proses-AK3U">AK3U</Link>
                       </li>
                     </ul>
                   </li>
@@ -259,35 +215,23 @@ export default function Navbar() {
               <Link to="/">home</Link>
             </li>
             <li className="sidenav__item">
-              <Link to="/about">pages</Link>
+              <Link to="/about">Tentang Kami</Link>
               <span className="menu-plus-icon"></span>
               <ul className="side-sub-menu">
                 <li>
-                  <Link to="/about">about us</Link>
+                  <Link to="/about">Mitra Satu Rupa</Link>
                 </li>
                 <li>
-                  <Link to="/team">Team</Link>
+                  <Link to="/visi-misi">Visi Misi</Link>
                 </li>
                 <li>
-                  <Link to="/testimonial">testimonial</Link>
+                  <Link to="/tata-nilai">Tata Nilai</Link>
                 </li>
                 <li>
-                  <Link to="/faq">FAQS</Link>
+                  <Link to="/kode-etik">Kode Etik</Link>
                 </li>
                 <li>
-                  <Link to="/our-pricing">pricing</Link>
-                </li>
-                <li>
-                  <Link to="/error">404 error page</Link>
-                </li>
-                <li>
-                  <Link to="/sign-up">sign up</Link>
-                </li>
-                <li>
-                  <Link to="/login">login</Link>
-                </li>
-                <li>
-                  <Link to="/forgot-password">recover password</Link>
+                  <Link to="/team">Team Member Member</Link>
                 </li>
               </ul>
             </li>
@@ -309,9 +253,6 @@ export default function Navbar() {
               <ul className="side-sub-menu">
                 <li>
                   <Link to="/Proses-SMK3">SMK3 Kemenaker RI</Link>
-                </li>
-                <li>
-                  <Link to="/Proses-AK3U">AK3U</Link>
                 </li>
               </ul>
             </li>
