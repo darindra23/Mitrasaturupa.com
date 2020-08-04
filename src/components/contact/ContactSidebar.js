@@ -7,7 +7,7 @@ export default class ContactSidebar extends Component {
   render() {
     return (
       <aside className="contact-sidebar">
-        <h1>Our Office</h1>
+        <h1>Kantor Kami.</h1>
         <img src={img1} alt="Contact Sidebar" />
         <div className="contact-sidebar-infos">
           <div className="item d-flex">
@@ -17,7 +17,7 @@ export default class ContactSidebar extends Component {
               </span>
             </div>
             <div className="details">
-              <h3>Address.</h3>
+              <h3>Kantor Pusat.</h3>
               <span>
                 Jl.Tebet Barat Dalam VIII A No. 12, Tebet, Jakarta Selatan.
                 <br />
@@ -32,7 +32,7 @@ export default class ContactSidebar extends Component {
               </span>
             </div>
             <div className="details">
-              <h3>Riau Branch.</h3>
+              <h3>Cabang Riau.</h3>
               <span>
                 Jl. Gunung Sahilan No. 50,
                 <br />
@@ -50,7 +50,7 @@ export default class ContactSidebar extends Component {
               </span>
             </div>
             <div className="details">
-              <h3>Phone.</h3>
+              <h3>Telfon.</h3>
               <span>
                 Office &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :&nbsp; +62 21
                 21282236
@@ -80,7 +80,7 @@ export default class ContactSidebar extends Component {
             )
           }
         >
-          Contact With Us <FiChevronRight className="icon" />
+          Hubungi Kami <FiChevronRight className="icon" />
         </button>
       </aside>
     );

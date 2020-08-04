@@ -19,13 +19,14 @@ export default class ContactDetails extends Component {
           <div className="contact-form-grid d-grid">
             <div className="left">
               <SectionsTitle
-                title="Do You Have Any Question? Write Us a Message."
-                subtitle="Get In Touch With Us"
+                title="Apakah Anda Ada Pertanyaan? Tulis Pesan kepada Kami."
+                subtitle="Hubungi Kami"
               />
               <p>
-                For any inquiries please don't hesitate to contact us so we
-                could discuss for further opportunity and we'll try our best to
-                provide you with the best solution.
+                Untuk setiap pertanyaan, jangan ragu untuk menghubungi kami
+                sehingga kami dapat mendiskusikan peluang lebih lanjut dan kami
+                akan mencoba sebaik mungkin untuk memberikan solusi terbaik bagi
+                Anda.
               </p>
               <div className="sidebar-social-profile">
                 <ul className="contact-form-socials d-flex">
@@ -62,13 +63,13 @@ export default class ContactDetails extends Component {
                 <div className="form-grid d-grid">
                   <div className="left">
                     <label htmlFor="name">
-                      Your Name <sup>*</sup>
+                      Nama <sup>*</sup>
                     </label>
                     <input type="text" id="name" placeholder="Full Name" />
                   </div>
                   <div className="right">
                     <label htmlFor="email">
-                      Your Email <sup>*</sup>
+                      Email <sup>*</sup>
                     </label>
                     <input
                       type="email"
@@ -78,9 +79,9 @@ export default class ContactDetails extends Component {
                   </div>
                   <div className="left">
                     <label htmlFor="number">
-                      Your Number <sup>*</sup>
+                      Nomor <sup>*</sup>
                     </label>
-                    <input type="text" id="number" placeholder="Your Phone" />
+                    <input type="text" id="number" placeholder="Phone" />
                   </div>
                   <div className="right">
                     <label htmlFor="subject">
@@ -91,7 +92,7 @@ export default class ContactDetails extends Component {
                 </div>
                 <div className="form-textarea">
                   <label htmlFor="message">
-                    Your Message <sup>*</sup>
+                    Pesan <sup>*</sup>
                   </label>
                   <textarea id="message" placeholder="Write Message"></textarea>
                 </div>
@@ -104,7 +105,7 @@ export default class ContactDetails extends Component {
                     )
                   }
                 >
-                  Send Us Message <FiChevronRight className="icon" />
+                  Kirim Pesan <FiChevronRight className="icon" />
                 </button>
               </form>
             </div>

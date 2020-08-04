@@ -73,7 +73,7 @@ export default function Navbar() {
                         <Link to="/kode-etik">Kode Etik</Link>
                       </li>
                       <li>
-                        <Link to="/team">Team Member</Link>
+                        <Link to="/team">Auditor</Link>
                       </li>
                     </ul>
                   </li>
@@ -108,7 +108,7 @@ export default function Navbar() {
                     </ul>
                   </li>
                   <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/contact">Kontak</Link>
                   </li>
                 </ul>
               </nav>
@@ -156,7 +156,7 @@ export default function Navbar() {
                         <Link to="/kode-etik">Kode Etik</Link>
                       </li>
                       <li>
-                        <Link to="/team">Team Member</Link>
+                        <Link to="/team">Auditor</Link>
                       </li>
                     </ul>
                   </li>
@@ -191,7 +191,7 @@ export default function Navbar() {
                     </ul>
                   </li>
                   <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/contact">Kontak</Link>
                   </li>
                 </ul>
               </nav>
@@ -222,7 +222,7 @@ export default function Navbar() {
         <div className="side-menu-wrap">
           <ul className="side-menu-ul">
             <li className="sidenav__item">
-              <Link to="/">home</Link>
+              <Link to="/">Beranda</Link>
             </li>
             <li className="sidenav__item">
               <Link to="/about">Tentang Kami</Link>
@@ -241,7 +241,7 @@ export default function Navbar() {
                   <Link to="/kode-etik">Kode Etik</Link>
                 </li>
                 <li>
-                  <Link to="/team">Team Member Member</Link>
+                  <Link to="/team">Auditor Member</Link>
                 </li>
               </ul>
             </li>
@@ -272,7 +272,7 @@ export default function Navbar() {
               </ul>
             </li>
             <li className="sidenav__item">
-              <Link to="/contact">contact</Link>
+              <Link to="/contact">Kontak</Link>
             </li>
           </ul>
         </div>

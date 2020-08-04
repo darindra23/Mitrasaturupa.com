@@ -14,7 +14,7 @@ export default class ContactPage extends Component {
         <header className="header-area">
           <Navbar />
         </header>
-        <Breadcrumb title="Contact Us." />
+        <Breadcrumb title="Hubungi Kami." />
         <ContactDetails />
         <Footer />
       </>

@@ -73,7 +73,7 @@ export default class Footer extends Component {
                     <Link to="/AK3U">Proses Sertifikasi AK3U</Link>
                   </li>
                   <li>
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/contact">Hubungi Kami</Link>
                   </li>
                 </ul>
               </div>

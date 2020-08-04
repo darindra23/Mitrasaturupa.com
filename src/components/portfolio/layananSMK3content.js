@@ -9,15 +9,15 @@ export default class PortfolioDetailsContent extends Component {
             <div className="portfolio-details-content">
               <h1>Definisi SMK3</h1>
               <p>
-                SMK 3 Menurut <b>PER.05/MEN/1996 pasal 1</b>, Sistem Manajemen
-                Keselamatan dan Kesehatan Kerja (SMK3) adalah bagian dari sistem
-                manajemen keseluruhan yang meliputi struktur organisasi,
-                perencanaan, tanggungjawab, pelaksanaan, prosedur, proses dan
-                sumberdaya yang dibutuhkan bagi pengembangan, penerapan,
-                pencapaian, pengkajian dan pemeliharaan kebijakan Keselamatan
-                dan kesehatan kerja dalam rangka pengendalian risiko yang
-                berkaitan dengan kegiatan kerja guna terciptanya tempat kerja
-                yang aman, efisien dan produktif.
+                SMK 3 Menurut <b>Peraturan Pemerintah No. 50 tahun 2012</b>,
+                Sistem Manajemen Keselamatan dan Kesehatan Kerja (SMK3) adalah
+                bagian dari sistem manajemen keseluruhan yang meliputi struktur
+                organisasi, perencanaan, tanggungjawab, pelaksanaan, prosedur,
+                proses dan sumberdaya yang dibutuhkan bagi pengembangan,
+                penerapan, pencapaian, pengkajian dan pemeliharaan kebijakan
+                Keselamatan dan kesehatan kerja dalam rangka pengendalian risiko
+                yang berkaitan dengan kegiatan kerja guna terciptanya tempat
+                kerja yang aman, efisien dan produktif.
               </p>
               <p>
                 Tujuan dan sasaran sistem Manajemen K3 adalah Mencegah dan
@@ -54,8 +54,7 @@ export default class PortfolioDetailsContent extends Component {
               <h1>Elemen pada SMK3</h1>
               <p>
                 Sebagai mana terdapat pada
-                <b> lampiran I PERMENAKER NO:PER.05/MEN/1996 </b> sebagai
-                berikut:
+                <b> Peraturan Pemerintah No. 50 tahun 2012 </b> sebagai berikut:
               </p>
               <p>
                 <b>1.&nbsp; Komitmen dan Kebijakan</b>
